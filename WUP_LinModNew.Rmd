@@ -47,6 +47,7 @@ basicNN + geom_point() + ggtitle("SIMS vs ARM") + theme(plot.title - element_tex
 ```{r}
 cor(SIMS~ARM,data=data)
 ```
+This model is a representation of the correlation between the data. This is why the scatter plot looks the way it looks.
 
 ### Inferential  (Build model.1)
 
