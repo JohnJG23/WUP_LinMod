@@ -56,6 +56,12 @@ summary.lm(model.1)
 ```
 The response from this model that is for the SIMS is "-4.095160". This is because the number would represent where a line would cut across the y axis. 
 #### Predict at target point
+```{r}
+tgtpoint=data.frame(ARM=88, GRIP=94)
+predict(model.1, tgtpoint, interval= c("prediction"))
+```
+
+
 
 
 #### scatterplot with model fit
