@@ -54,7 +54,7 @@ This model is a representation of the correlation between the data. This is why 
 model.1 <- lm(SIMS~ARM,data=data)
 summary.lm(model.1)
 ```
-
+The response from this model that is for the SIMS is "-4.095160". This is because the number would represent where a line would cut across the y axis. 
 #### Predict at target point
 
 
