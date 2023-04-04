@@ -50,6 +50,10 @@ cor(SIMS~ARM,data=data)
 This model is a representation of the correlation between the data. This is why the scatter plot looks the way it looks.
 
 ### Inferential  (Build model.1)
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
 
 #### Predict at target point
 
