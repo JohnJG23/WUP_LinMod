@@ -43,6 +43,10 @@ basicNN <- ggplot(data,aes(y=SIMS,x=ARM))
 basicNN + geom_point() + ggtitle("SIMS vs ARM") + theme(plot.title = element_text(hjust = 0.5, size = 20))
 ```
 
+The code generated a representation of the data for the relationship between isometric strength tests and job performance for 147 workers. That is why the scatter plot is skewed. Most participant plots landed in the middle with some participants who managed to plot themselves on the outside of the average range.  
+
+
+
 ### Numerical results
 ```{r}
 cor(SIMS~ARM,data=data)
