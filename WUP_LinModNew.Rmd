@@ -110,6 +110,8 @@ When we generate this inferential response it response with estimates. These est
 predict(model.2, tgtpoint, interval= c("prediction"))
 ```
 
+The response from the rcommand predict shows the representation of a confident prediction interval. That is why the first number in the generated response is -0.5361543 and it falls in between the second and third numbers.
+
 #### now add the model fit to our plot for model.2
   
 
