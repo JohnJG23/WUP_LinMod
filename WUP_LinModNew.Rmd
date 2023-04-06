@@ -124,7 +124,10 @@ The r code for a scatter plot with a model fit generates a representation simila
 
 ### Numerical results (cor)
 
-`
+```{r}
+cor(SIMS~ARM+GRIP,data=data)
+```
+
   
 ### Inferential  (Build 2-dimentional model.3)
 
