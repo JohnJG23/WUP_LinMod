@@ -115,10 +115,10 @@ The response from the rcommand predict shows the representation of a confident p
 #### now add the model fit to our plot for model.2
 
 ```{r}
-basicNN + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_text(hjust = 0.5, size = 20)) + geom_smooth(method=lm)
+basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_text(hjust = 0.5, size = 20)) + geom_smooth(method=lm)
 ```  
 
-
+The r code for a scatter plot with a model fit generates a representation similar to the previous but this one is talking about GRIP. Overall, a scatter plot with a model fit is a useful base to go from. The model fit graphs the best participants plots on the scatter plot. That is why there a line with participants who landed below and above it.
 
 ## Model 3 SIM~ARM+GRIP
 
