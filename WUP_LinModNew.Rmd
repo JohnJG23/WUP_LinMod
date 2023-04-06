@@ -96,7 +96,13 @@ cor(SIMS~GRIP,data=data)
 In this numerical response we ran the data to have something to go from. Typically we want to see a number like 0.6398458. Otherwise there would be a non numerical response. 
 
 ### Inferential  (Build model.2)
+
+```{r}
+model.2 <- lm(SIMS~GRIP,data=data)
+summary.lm(model.2)
+```
   
+
 
 #### predict model.2 at target point
 
