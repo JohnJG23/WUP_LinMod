@@ -102,7 +102,7 @@ model.2 <- lm(SIMS~GRIP,data=data)
 summary.lm(model.2)
 ```
   
-
+When we generate this inferential response it response with estimates. These estimates serve us as an idea of where is the median, max, and minimum. For the variable's SIMS~GRIP we can now consider something like the Residuals, Coefficients, and Intercept.       
 
 #### predict model.2 at target point
 
