@@ -90,6 +90,10 @@ basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_
 
 ### Numerical results 
 
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+In this numerical response we ran the data to have something to go from. Typically we want to see a number like 0.6398458. Otherwise there would be a non numerical response. 
 
 ### Inferential  (Build model.2)
   
