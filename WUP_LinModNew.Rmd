@@ -141,6 +141,10 @@ This summary is a numerical representation of the linear regression fit for the 
 
 
 #### predict model.3 at target point
+
+```{r}
+predict(model.3, tgtpoint, interval= c("prediction"))
+```
   
 
 ## Comparing nested models ANOVA Test
