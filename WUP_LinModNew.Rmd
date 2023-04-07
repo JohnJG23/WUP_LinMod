@@ -145,6 +145,8 @@ This summary is a numerical representation of the linear regression fit for the 
 ```{r}
 predict(model.3, tgtpoint, interval= c("prediction"))
 ```
+
+The response from the rcommand predict shows the representation of a confident prediction from the fitted model "3". That is why the number labelled "fit" is 0.1496476 and it falls in between the second and third numbers on row 1.
   
 
 ## Comparing nested models ANOVA Test
