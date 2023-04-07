@@ -137,6 +137,8 @@ model.3 <- lm(SIMS~ARM+GRIP,data=data)
 summary.lm(model.3)
 ```
 
+This summary is a numerical representation of the linear regression fit for the variables "SIMS", "ARM", and "GRIP".        
+
 
 #### predict model.3 at target point
   
