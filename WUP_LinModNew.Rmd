@@ -176,4 +176,6 @@ The command responds like the first anova command but in this one we can read si
 anova(model.1,model.2)
 ```
 
+The response that is generated here is a representation of why the arm and grip by them selves are not a good fit. Model 1 has an rss with 217.88. Model 2 has an rss with 243.07. When you subtract the 2 you get -25.189. Therefore it is not a good prediction because we prefer a small number, either being 1 number or a set of numbers.
 
+In the beginning we learned how to build models for our linMod data. We viewed the data variables ARM and GRIP on their own and put them together. Then we learned the how the variables togther produced the goodness of fit by comparing rss value's.   
