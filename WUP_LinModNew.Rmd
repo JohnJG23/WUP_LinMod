@@ -167,6 +167,8 @@ The command responds with our models in one table. The model 2 that is model 3 s
 anova(model.2,model.3)
 ```
 
+The command responds like the first anova command but in this one we can read sims~GRIP for Model 1 and sims~ARM+GRIP for Model 2. The model 2 that is model 3 still will show that there is an improvement than the one that was just arm or grip. Taking into consideration the previous stated meaning of the p value there is a similar outcome in this command. This is because again we know that there is a smaller number of RSS for Model 2. 
+
 
 ## Informally compare Model.1 with model.2
 
