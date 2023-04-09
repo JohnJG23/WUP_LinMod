@@ -163,5 +163,10 @@ The command responds with our models in one table. The model 2 that is model 3 s
 
 ### Model.2 vs Model.3
 
+```{r}
+anova(model.2,model.3)
+```
+
+
 ## Informally compare Model.1 with model.2
 
