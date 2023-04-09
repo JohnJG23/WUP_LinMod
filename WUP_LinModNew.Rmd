@@ -159,6 +159,8 @@ The response from the rcommand predict shows the representation of a confident p
 anova(model.1,model.3)
 ```
 
+The command responds with our models in one table. The model 2 that is model 3 show that there is an improvement than the one that was with arm. The p value is a representation of this response. That is because the p value is relative to non existent, very small, and not likely of being in favor of letting us see the differences. The chance of getting a result like this anova response if there really wasn't any difference is not likely.  
+
 ### Model.2 vs Model.3
 
 ## Informally compare Model.1 with model.2
